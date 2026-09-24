@@ -1,0 +1,10 @@
+{
+  "monotonic_invariant": true,
+  "line_seqs": [1, 2, 3],
+  "visible_seqs": [1, 2, 3],
+  "ops": [
+    {"op": "commit", "key": "a", "value": "1", "at": 1},
+    {"op": "commit", "key": "b", "value": "2", "at": 2},
+    {"op": "commit", "key": "a", "value": "3", "at": 3}
+  ]
+}
